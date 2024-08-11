@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Signup from './components/Signup';
 import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Hero />} />
         <Route path='/Signup' element={<Signup />} />
         <Route path='/Login' element={<Login />} />
+        <Route path='/dashboard' element={<Dashboard />} />
       </Routes>
 
     </Router>
