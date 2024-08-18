@@ -5,6 +5,7 @@ const Dashboard = () => {
 		<>
 			<div className="container-fluid" style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}>
 				<div style={{ width: '70%', marginLeft: '30px', marginRight: '20px' }}>
+					<h1 style={{ color: '#0c518f' }} >Track your expenses here</h1>
 					<form>
 						<div className="row mb-3">
 							<div className="col-md-2">
@@ -49,7 +50,6 @@ const Dashboard = () => {
 					</form>
 				</div>
 
-				{/* Result Section */}
 				<div style={{ width: '25%', marginRight: '30px', color: '#0c518f' }}>
 					<h4 className="fw-bold">Expenses Summary</h4>
 					<ul className="list-group mb-4">

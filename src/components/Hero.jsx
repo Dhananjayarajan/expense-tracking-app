@@ -9,7 +9,7 @@ const Hero = () => {
 			<img src={bgpic} alt="Background" className="background-image" />
 			<div className="overlay-content text-center">
 				<h1 className="display-2 fw-bold" style={{ color: '#0c518f' }}>Track Your Daily Expenses</h1>
-				<Link to='/Signup'><button className="btn btn-primary m-2">Get Started</button></Link>
+				<Link to='/register'><button className="btn btn-primary m-2">Get Started</button></Link>
 				<button className="btn btn-success m-2">Read Documentation</button>
 			</div>
 		</div>

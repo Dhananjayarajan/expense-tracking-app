@@ -23,7 +23,7 @@ const Header = () => {
 								<Link to="/dashboard" className="nav-link active fs-3 fw-bold text" style={{ color: '#0c518f' }} aria-current="page" href="#">Dashboard</Link>
 							</li>
 							<li className="nav-item">
-								<Link to='/Signup' className="nav-link fw-bold fs-3 text" href="signup" style={{ color: '#0c518f' }} >Signup</Link>
+								<Link to='/Register' className="nav-link fw-bold fs-3 text" href="signup" style={{ color: '#0c518f' }} >Signup</Link>
 							</li>
 							<li className="nav-item">
 								<Link to='/Login' className="nav-link fw-bold fs-3 text" href="#" style={{ color: '#0c518f' }} >Login</Link>
